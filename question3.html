@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="question3.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: "X X";
+            grid-template-rows: 50px;
+            grid-auto-rows: 200px;
+            padding: 20px;
+
+        }
+
+        .box {
+            background-color: blanchedalmond;
+            color: black;
+            border: solid 3px black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- grid-auto-rows and grid-auto-column properties specify the height and width of rowa that are automatically created when there is no explicit row defination and column defination respectively. -->
+
+
+    <div class="container">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+    </div>
+
+<!-- This example creates a grid container with two columns defined by grid-template-areas. The first row is displayed with a height of 50px because we have mentioned grid-template-rows for the first row as 50px and the remaining row will be displayed with a heightt of 100px because of the grid-auto-rows 200px property. That's why the second row is displayed with a height of 200px  -->
+
+
+</body>
+
+</html>
